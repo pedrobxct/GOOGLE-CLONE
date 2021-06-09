@@ -58,13 +58,14 @@ main {
   margin-top: 25rem;
 }
 main .main-logo {
-width: 53rem;
-margin: 0 auto;
-margin-bottom: 3.5rem;
+  width: 53rem;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
 }
 main .main-logo img {
   width: 30rem;
 }
+/* INPUT */
 main .main-input {
   width: 53rem;
   margin: 0 auto;
@@ -83,4 +84,25 @@ main .main-input input {
   height: 4rem;
   border: none;
   outline: none;
+}
+main .input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+main .main-input .input-container__search-icon{
+  background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+main .main-input .input-container__micro-icon {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.8rem;
+  height: 1.8rem;
+}
 }
