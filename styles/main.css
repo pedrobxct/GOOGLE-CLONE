@@ -30,7 +30,7 @@ a {
   list-style: none;
   font-size: 1.3rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .header__nav--item a {
